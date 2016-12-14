@@ -39,6 +39,17 @@ ol {
   padding: 0;
 }
 
+li a {
+  display: block;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: #d3d3d3;
+}
+
+li a:nth-child(1) {
+  color: red;
+}
+
 .loner-div > img {
   width: 100%;
   position: relative;
@@ -49,15 +60,13 @@ ol {
   position: absolute;
 }
 
-li  a {
-  display: block;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  background-color: #d3d3d3;
+.textures {
+  text-align: center;
 }
 
-li a:nth-child(1) {
-  color: red;
+.open {
+  border: 10px solid black;
+  border-radius: 7px;
 }
 
 .round {
