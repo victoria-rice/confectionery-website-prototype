@@ -84,18 +84,22 @@ li a {
 
 .textures {
   text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border: #000 1px solid;
+  line-height: 1.4;
 }
 
 /* Open sign *********************************/
 
 .open {
-  margin: 2em;
-  display: block;
+  margin: auto;
   padding: 2em 2em;
   border: 10px solid black;
   border-radius: 100%;
   text-align: center;
   width: 320px;
+  clear: both;
 }
 
 dl {
@@ -177,18 +181,22 @@ footer {
 
 /* Textures *********************************/
 
-.texturesgroup div {
-  display: inline;
-}
-
-}
-
 @media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
     line-height: 1.5;
   }
+
+}
+
+@media only screen and (min-width: 70em) {
+
+  .textures {
+    display: inline-block;
+    float: left;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -196,4 +204,5 @@ footer {
   html {
     font-size: 130%;
   }
+
 }
