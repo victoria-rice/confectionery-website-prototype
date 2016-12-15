@@ -62,7 +62,7 @@ li a {
 }
 
 .round {
-  position: relative;
+  display: block;
   text-align: center;
 
 }
@@ -172,9 +172,9 @@ footer {
 
   header .round {
     text-align: center;
-    max-width: 256px;
-    margin: 0;
+    position: relative;
   }
+
 /* Textures *********************************/
 
 .texturesgroup div {
