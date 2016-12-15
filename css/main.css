@@ -72,6 +72,7 @@ li a:nth-child(1) {
 /* Open sign *********************************/
 
 .open {
+  margin: 2em;
   display: block;
   padding: 2em 2em;
   border: 10px solid black;
@@ -83,6 +84,7 @@ li a:nth-child(1) {
 dl {
   padding: 0.5em;
 }
+
 dt {
   float: left;
   clear: left;
@@ -102,12 +104,32 @@ dd {
 
 /* About us *********************************/
 
-.aboutus img{
+.aboutusgroup h2 {
+  padding: 3em 2em .1em 2em;
+}
+
+.talk {
+  text-indent: .6em;
+  padding: 1em;
+}
+
+.aboutus img {
   width: 90%;
   max-width: 250px;
+
+}
+
+.aboutus {
+  text-align: center;
 }
 
 /* Footer *********************************/
+
+footer {
+  border: 4px solid;
+  margin: 2rem;
+  clear: both;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -123,6 +145,24 @@ dd {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  ol > li {
+    text-align: center;
+    max-width: 50%;
+    margin: 0;
+  }
+
+  header li:nth-child(odd) {
+    float: right;
+    min-width: 50%;
+}
+
+  header .round {
+  text-align: center;
+  max-width: 256px;
+  margin: 0;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
