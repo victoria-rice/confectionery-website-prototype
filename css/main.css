@@ -18,6 +18,7 @@ html {
   box-sizing: inherit;
 }
 
+/* begin ************************************/
 
 body {
   margin: 0;
@@ -50,6 +51,8 @@ li a:nth-child(1) {
   color: red;
 }
 
+/* Loner Pic *********************************/
+
 .loner-div > img {
   width: 100%;
   position: relative;
@@ -60,23 +63,51 @@ li a:nth-child(1) {
   position: absolute;
 }
 
+/* Textures!! *********************************/
+
 .textures {
   text-align: center;
 }
 
+/* Open sign *********************************/
+
 .open {
+  display: block;
+  padding: 2em 2em;
   border: 10px solid black;
-  border-radius: 7px;
+  border-radius: 100%;
+  text-align: center;
+  width: 320px;
+}
+
+dl {
+  padding: 0.5em;
+}
+dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 0 110px;
+  padding: 0 0 0.5em 0;
 }
 
 .round {
   text-align: center;
 }
 
+/* About us *********************************/
+
 .aboutus img{
   width: 90%;
   max-width: 250px;
 }
+
+/* Footer *********************************/
 
 @media only screen and (min-width: 25em) {
 
