@@ -12,6 +12,7 @@ html {
   box-sizing: border-box;
   font: normal 100%/1.3 sans-serif;
   box-sizing: border-box;
+  font-family: 'Droid Serif', serif;
 }
 
 *, *::before, *::after {
