@@ -34,6 +34,11 @@ h1 {
   border-bottom: solid #000 .2rem;
 }
 
+nav {
+  position: absolute;
+  width: 100%;
+}
+
 ol {
   list-style: none;
   text-align: center;
@@ -47,24 +52,32 @@ li a {
   padding-bottom: .5em;
   background-color: #d3d3d3;
 }
+
 nav a:hover {
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
 }
 
-li a:nth-child(1) {
-  color: red;
+li a {
+  color: #000;
+}
+
+.round {
+  position: relative;
+  text-align: center;
+
 }
 
 /* Loner Pic *********************************/
 
+.loner-div {
+  display: block;
+}
+
 .loner-div > img {
   width: 100%;
-  position: relative;
-  z-index: -1;
 }
 
 .loner-div > h2 {
-  position: absolute;
 }
 
 /* Textures!! *********************************/
@@ -100,10 +113,6 @@ dt {
 dd {
   margin: 0 0 0 110px;
   padding: 0 0 0.5em 0;
-}
-
-.round {
-  text-align: center;
 }
 
 /* About us *********************************/
@@ -166,6 +175,11 @@ footer {
     max-width: 256px;
     margin: 0;
   }
+/* Textures *********************************/
+
+.texturesgroup div {
+  display: inline;
+}
 
 }
 
