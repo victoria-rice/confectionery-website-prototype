@@ -34,7 +34,7 @@ h1 {
   border-bottom: solid #000 .2rem;
 }
 
-nav {
+.list {
   position: absolute;
   width: 100%;
 }
@@ -53,7 +53,7 @@ li a {
   background-color: #d3d3d3;
 }
 
-nav a:hover {
+.list a:hover {
   background-color: #c0c0c0;
 }
 
@@ -64,7 +64,13 @@ li a {
 .round {
   display: block;
   text-align: center;
+  width: 14em;
+  margin: 0 auto;
+}
 
+.round img {
+  width: 100%;
+  display: block;
 }
 
 /* Loner Pic *********************************/
@@ -130,14 +136,22 @@ dd {
   padding: 1em;
 }
 
-.aboutus img {
-  width: 90%;
-  max-width: 250px;
-
+.aboutuscards {
+  padding: 2em;
+  text-align: center;
 }
 
 .aboutus {
   text-align: center;
+  display: inline-block;
+  border: 3px solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px
+}
+
+.aboutus img {
+  width: 90%;
+  max-width: 250px;
 }
 
 /* Footer *********************************/
@@ -154,6 +168,7 @@ footer {
     font-size: 100%;
     line-height: 1.3;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -179,7 +194,14 @@ footer {
     position: relative;
   }
 
-/* Textures *********************************/
+  .aboutus {
+    display: block;
+    width: 50%;
+  }
+
+  .aboutus figcaption {
+    float: right;
+  }
 
 @media only screen and (min-width: 60em) {
 
